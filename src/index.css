@@ -20,3 +20,41 @@ body {
 #root {
   min-height: 100%;
 }
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-float {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+@keyframes floatIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.88);
+    filter: blur(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.reveal-float {
+  opacity: 0;
+  animation: floatIn 900ms cubic-bezier(.2,.8,.2,1) both;
+}

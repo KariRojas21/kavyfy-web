@@ -20,10 +20,16 @@ export default function BackToTop() {
     <button
       onClick={goTop}
       className={[
-        "fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-4 py-2 text-xs font-semibold text-white/90 backdrop-blur transition",
-        "hover:bg-black/55 hover:border-white/20",
-        show ? "opacity-100 translate-y-0" : "pointer-events-none opacity-0 translate-y-2",
-      ].join(" ")}
+          "fixed right-5 bottom-24 z-50 inline-flex items-center gap-2 rounded-2xl",
+          "border border-white/10 bg-black/40 px-4 py-2 text-xs font-semibold text-white/90",
+          "backdrop-blur transition-all duration-300",
+          "shadow-lg shadow-black/40",
+          "hover:bg-black/55 hover:border-white/20 hover:shadow-xl hover:shadow-black/60",
+          "animate-float",
+          show
+            ? "opacity-100 translate-y-0"
+            : "pointer-events-none opacity-0 translate-y-2",
+        ].join(" ")}
       aria-label={t("nav.top")}
       title={t("nav.top")}
     >

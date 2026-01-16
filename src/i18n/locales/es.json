@@ -12,6 +12,48 @@
   "cta": "Hablemos",
   "top": "Ir arriba"
   },
+  "home": {
+    "logos": {
+      "title": "Confiado por equipos que construyen sistemas críticos",
+      "subtitle": "Industrias y contextos de entrega seleccionados"
+    },
+    "security": {
+      "title": "Entrega con enfoque en seguridad",
+      "note": "Controles pragmáticos • Proceso transparente",
+      "disclaimer": "Nos alineamos a buenas prácticas y requisitos del cliente. Certificaciones se comparten bajo solicitud si aplica.",
+      "sdlc": { "title": "SDLC seguro", "desc": "Diseño con enfoque de riesgos, revisiones y QA gates." },
+      "owasp": { "title": "Alineado a OWASP", "desc": "Validaciones base para riesgos web comunes." },
+      "access": { "title": "Accesos y secretos", "desc": "Mínimo privilegio, gestión y rotación de secretos." },
+      "cicd": { "title": "Controles CI/CD", "desc": "Aprobaciones, trazabilidad y despliegues seguros." }
+    },
+    "cases": {
+      "title": "Casos de éxito",
+      "subtitle": "Patrones reales de entrega y resultados medibles.",
+      "badge": "Entrega orientada a resultados",
+      "labels": { "problem": "Problema", "solution": "Solución", "result": "Resultado" },
+      "c1": {
+        "tag": "Modernización legacy",
+        "title": "Modernización sin tiempos de inactividad",
+        "problem": "Liberaciones lentas e integraciones frágiles en módulos legacy.",
+        "solution": "Refactor incremental + capa de APIs + pruebas automáticas y CI.",
+        "result": "Liberaciones semanales • menos regresiones"
+      },
+      "c2": {
+        "tag": "Integraciones & APIs",
+        "title": "Integraciones estables entre múltiples servicios",
+        "problem": "Datos inconsistentes y dependencias externas frágiles.",
+        "solution": "APIs contract-first + observabilidad + reintentos e idempotencia.",
+        "result": "Más confiabilidad • resolución más rápida"
+      },
+      "c3": {
+        "tag": "Entrega de producto",
+        "title": "MVP con base escalable",
+        "problem": "Validar rápido sin generar deuda técnica.",
+        "solution": "Arquitectura ligera + hitos claros + gobernanza.",
+        "result": "Más rápido al mercado • base escalable"
+      }
+    }
+  },
   "hero": {
     "pill": "Software a la medida + Outsourcing internacional",
     "titleA": "Construimos productos de software",
@@ -61,7 +103,7 @@
     "outsourcing": {
       "title": "Outsourcing / Staff Augmentation",
       "desc": "Sumamos talento senior con ownership y comunicación clara.",
-      "b1": "Full-time o por proyecto",
+      "b1": "Tiempo completo o por proyecto",
       "b2": "Onboarding rápido y reportes claros",
       "b3": "Estándares altos de calidad"
     },
@@ -107,7 +149,9 @@
     "p1": "Llamada de discovery + requerimientos claros",
     "p2": "Estimación por fases/sprints y entregables",
     "p3": "Comunicación en inglés/español (clientes abroad)"
-  },
+  }
+  ,
+  "emailAlt": "O escríbenos al correo y te responderemos en menos de 24 horas",
   "note": "Tip: entre más contexto (plazo, stack, alcance), más rápido te enviamos una propuesta precisa.",
   "form": {
     "name": "Nombre",
@@ -169,7 +213,7 @@
     "p3": "Perfecto para MVPs y módulos definidos"
   },
   "hourly": {
-    "title": "Time & Materials (Por horas)",
+    "title": "Tiempo & Materiales (Por horas)",
     "subtitle": "Ideal cuando los requerimientos evolucionan con el tiempo.",
     "p1": "Alcance flexible con planificación por sprints",
     "p2": "Updates semanales y demos",
@@ -205,7 +249,20 @@
   "p5": "Entrega confiable con sprints, demos y reportes",
   "p6": "Mentalidad de alianza a largo plazo",
   "note": "Seleccionamos tecnología según la necesidad del negocio, no por moda."
-},
+},"benefits": {
+  "kicker": "Beneficios",
+  "title": "¿Por qué KavyFy?",
+  "subtitle": "Mentalidad de ingeniería, comunicación clara y entrega predecible.",
+  "cardTitle": "Entrega confiable para sistemas empresariales y legacy",
+  "p1": "Experiencia sólida con sistemas enterprise y legacy",
+  "p2": "Comunicación clara en inglés y español",
+  "p3": "Entrega confiable con sprints, demos y reportes",
+  "p4": "Modernización ASP.NET MVC, Razor y Oracle Forms",
+  "p5": "Arquitectura enfocada en seguridad y control de acceso",
+  "p6": "Visión de alianza a largo plazo",
+  "note": "Elegimos tecnologías según la necesidad del negocio — no por moda."
+}
+,
 "systems": {
   "kicker": "Sistemas",
   "title": "Sistemas complejos e industrias que atendemos",

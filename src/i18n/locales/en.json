@@ -6,11 +6,53 @@
   "tech": "Tech",
   "process": "Process",
   "benefits": "Why KavyFy",
-  "systems": "Industries & Systems",
+  "systems": "Industries",
   "engagement": "Engagement",
   "contact": "Contact",
   "cta": "Let's talk",
   "top": "Back to top"
+  },
+   "home": {
+    "logos": {
+      "title": "Trusted by teams building mission-critical systems",
+      "subtitle": "Selected industries and delivery contexts"
+    },
+    "security": {
+      "title": "Security-first delivery",
+      "note": "Pragmatic controls • Transparent process",
+      "disclaimer": "We align to best practices and client requirements. Certifications are provided on request if applicable.",
+      "sdlc": { "title": "Secure SDLC", "desc": "Threat-aware design, reviews, and QA gates." },
+      "owasp": { "title": "OWASP-aligned", "desc": "Baseline checks for common web risks." },
+      "access": { "title": "Access & secrets", "desc": "Least privilege, secrets management, rotation." },
+      "cicd": { "title": "CI/CD controls", "desc": "Approvals, audit trails, safe deployments." }
+    },
+    "cases": {
+      "title": "Case studies",
+      "subtitle": "Real-world delivery patterns and measurable outcomes.",
+      "badge": "Outcome-focused delivery",
+      "labels": { "problem": "Problem", "solution": "Solution", "result": "Result" },
+      "c1": {
+        "tag": "Legacy modernization",
+        "title": "Modernized a critical system without downtime",
+        "problem": "Slow releases and fragile integrations across legacy modules.",
+        "solution": "Incremental refactor + API layer + automated tests and CI.",
+        "result": "Weekly releases • fewer regressions"
+      },
+      "c2": {
+        "tag": "Integrations & APIs",
+        "title": "Stabilized integrations across multiple services",
+        "problem": "Inconsistent data and brittle third-party dependencies.",
+        "solution": "Contract-first APIs + observability + retries and idempotency.",
+        "result": "Higher reliability • faster incident resolution"
+      },
+      "c3": {
+        "tag": "Product delivery",
+        "title": "Shipped an MVP with a scalable foundation",
+        "problem": "Need to validate quickly without creating tech debt.",
+        "solution": "Lean architecture + clear milestones + governance.",
+        "result": "Faster time-to-market • scalable base"
+      }
+    }
   },
   "hero": {
     "pill": "Custom software + International outsourcing",
@@ -108,6 +150,7 @@
     "p2": "Estimate by phases/sprints and deliverables",
     "p3": "English/Spanish communication (clients abroad)"
   },
+   "emailAlt": "Or email us and we’ll reply within 24 hours",
   "note": "Tip: the more context you share (timeline, stack, scope), the faster we can send a precise proposal.",
   "form": {
     "name": "Name",
@@ -204,7 +247,20 @@
   "p5": "Reliable delivery with sprints, demos and reporting",
   "p6": "Long-term partnership mindset",
   "note": "We select technologies based on business needs — not trends."
+},"benefits": {
+  "kicker": "Why KavyFy",
+  "title": "Why KavyFy?",
+  "subtitle": "Engineering mindset, clear communication, predictable delivery.",
+  "cardTitle": "Trusted delivery for enterprise & legacy systems",
+  "p1": "Strong experience with enterprise and legacy systems",
+  "p2": "Clear communication in English and Spanish",
+  "p3": "Reliable delivery with sprints, demos and reporting",
+  "p4": "ASP.NET MVC, Razor and Oracle Forms modernization",
+  "p5": "Security-focused architecture and access control",
+  "p6": "Long-term partnership mindset",
+  "note": "We select technologies based on business needs — not trends."
 },
+
 "systems": {
   "kicker": "Systems",
   "title": "Complex systems & industries we support",

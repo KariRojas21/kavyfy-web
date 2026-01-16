@@ -132,6 +132,21 @@ export default function Contact() {
             <div className="mt-6 rounded-2xl border border-white/10 bg-black/20 p-4 text-xs text-white/60">
               {t("contact.note")}
             </div>
+            <div className="mt-4 rounded-xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-3 text-sm">
+  <span className="text-emerald-200">
+    {t("contact.emailAlt")}{" "}
+    <a
+      href="mailto:karrojas@kavify.com"
+      className="font-semibold underline underline-offset-4 hover:text-white"
+    >
+      karrojas@kavify.com
+    </a>{" "} 
+  </span>
+</div>
+
+
+
+
           </div>
 
           {/* Right (Form) */}
