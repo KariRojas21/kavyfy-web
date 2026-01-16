@@ -1,0 +1,223 @@
+{
+  "brand": "KavyFy Technologies",
+  "nav": {
+  "home": "Inicio",
+  "services": "Servicios",
+  "tech": "Tecnología",
+  "process": "Proceso",
+  "benefits": "Por qué KavyFy",
+  "systems": "Industrias y sistemas",
+  "engagement": "Modelos",
+  "contact": "Contacto",
+  "cta": "Hablemos",
+  "top": "Ir arriba"
+  },
+  "hero": {
+    "pill": "Software a la medida + Outsourcing internacional",
+    "titleA": "Construimos productos de software",
+    "titleB": "rápidos, seguros",
+    "titleC": "y listos para escalar.",
+    "desc": "Desarrollamos software a la medida y ofrecemos outsourcing desde Costa Rica, combinando experiencia enterprise con estándares globales.",
+    "primary": "Solicitar propuesta",
+    "secondary": "Ver servicios",
+    "panel": {
+  "title": "Entrega y gobernanza",
+  "subtitle": "Ejecución transparente con controles de calidad y una cadencia predecible.",
+  "badge": "En tiempo",
+  "steps": {
+    "discovery": "Análisis & Definición",
+    "discoveryNote": "Alcance • Arquitectura • Riesgos",
+    "build": "Desarrollo",
+    "buildNote": "Sprints • Revisiones • QA",
+    "launch": "Despliegue y soporte",
+    "launchNote": "Deploy • Monitoreo • Soporte",
+    "onTrack": "En tiempo"
+  },
+  "gatesTitle": "Controles de calidad",
+  "g1": "Revisión de código",
+  "g2": "Pruebas automáticas",
+  "g3": "Chequeos de seguridad",
+  "g4": "Pipeline CI/CD",
+  "pass": "OK",
+  "kpi1": { "label": "Cadencia sprint", "value": "1–2 sem" },
+  "kpi2": { "label": "Tiempo de respuesta", "value": "< 24h" },
+  "kpi3": { "label": "Ritmo de releases", "value": "Semanal" },
+  "note": "Ejemplo de cómo estructuramos la entrega. Las métricas finales dependen del alcance."
+}
+
+  },
+"services": {
+  "kicker": "Servicios",
+  "title": "Dos líneas de negocio. Una obsesión: ejecutar con calidad.",
+  "subtitle": "Software a la medida para productos reales y servicio de outsourcing para acelerar equipos sin bajar el estándar.",
+  "cards": {
+    "custom": {
+      "title": "Desarrollo de software a la medida",
+      "desc": "Apps web, APIs, integraciones y sistemas internos listos para escalar.",
+      "b1": "Frontend moderno + backend robusto",
+      "b2": "Arquitectura limpia y documentación",
+      "b3": "Rendimiento y mantenibilidad"
+    },
+    "outsourcing": {
+      "title": "Outsourcing / Staff Augmentation",
+      "desc": "Sumamos talento senior con ownership y comunicación clara.",
+      "b1": "Full-time o por proyecto",
+      "b2": "Onboarding rápido y reportes claros",
+      "b3": "Estándares altos de calidad"
+    },
+    "security": {
+      "title": "Arquitectura y seguridad",
+      "desc": "Seguridad desde el diseño y arquitectura escalable para sistemas críticos.",
+      "b1": "Autenticación, roles y permisos",
+      "b2": "Hardening y buenas prácticas",
+      "b3": "Revisión de código y reducción de riesgos"
+    },
+    "modernization": {
+      "title": "Modernización",
+      "desc": "Actualizamos sistemas legacy sin afectar la operación.",
+      "b1": "Refactor, migración y optimización",
+      "b2": "Mejor UX + más velocidad",
+      "b3": "Observabilidad y confiabilidad"
+    },
+    "mvp": {
+      "title": "MVP para startups",
+      "desc": "Construimos una primera versión lista para usuarios reales.",
+      "b1": "Roadmap y alcance del MVP",
+      "b2": "Entrega ágil con demos",
+      "b3": "Iteración basada en feedback"
+    },
+    "global": {
+      "title": "Listos para entrega internacional",
+      "desc": "Procesos pensados para clientes abroad (EN/ES) y equipos remotos.",
+      "b1": "Entregables y tiempos claros",
+      "b2": "Updates asíncronos + demos por sprint",
+      "b3": "Mentalidad de partnership"
+    }
+  },
+  "bottom": {
+    "title": "¿Necesitás una propuesta?",
+    "desc": "Contanos qué ocupás (software a la medida o outsourcing). Te respondemos con próximos pasos y un plan claro."
+  }
+},
+"contact": {
+  "badge": "Respuesta rápida • Propuesta clara",
+  "title": "Hablemos de tu proyecto",
+  "subtitle": "Contanos qué necesitás (software a la medida u outsourcing). Te respondemos con próximos pasos y un plan claro.",
+  "points": {
+    "p1": "Llamada de discovery + requerimientos claros",
+    "p2": "Estimación por fases/sprints y entregables",
+    "p3": "Comunicación en inglés/español (clientes abroad)"
+  },
+  "note": "Tip: entre más contexto (plazo, stack, alcance), más rápido te enviamos una propuesta precisa.",
+  "form": {
+    "name": "Nombre",
+    "email": "Correo",
+    "company": "Empresa (opcional)",
+    "message": "Contanos qué necesitás (alcance, plazo, stack, etc.)",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "services": {
+      "custom": "Software a la medida",
+      "outsourcing": "Outsourcing / Staff augmentation",
+      "security": "Arquitectura y seguridad",
+      "modernization": "Modernización / Legacy",
+      "mvp": "MVP para startups",
+      "other": "Otro"
+    }
+  },
+  "success": "¡Gracias! Recibimos tu mensaje y te respondemos pronto.",
+  "privacy": "Solo usaremos esta información para contactarte por tu solicitud.",
+  "errors": {
+    "invalid": "Completá los campos requeridos (correo válido y mensaje detallado).",
+    "failed": "Ocurrió un error enviando el mensaje. Intentá de nuevo.",
+    "missingEndpoint": "El formulario no está conectado aún. Reemplazá el endpoint de Formspree en Contact.tsx."
+  }
+}
+,
+"tech": {
+  "kicker": "Tecnología",
+  "title": "Stack tecnológico listo para entornos enterprise",
+  "subtitle": "Tecnologías modernas y legacy combinadas para sistemas reales de negocio.",
+  "frontend": "Frontend y UI",
+  "backend": "Backend",
+  "database": "Bases de datos",
+  "cloud": "Cloud e infraestructura",
+  "devops": "DevOps y entrega",
+  "trustTitle": "¿Por qué KavyFy?",
+  "trust": {
+    "p1": "Experiencia sólida en sistemas enterprise y legacy",
+    "p2": "ASP.NET MVC, Razor y modernización de Oracle Forms",
+    "p3": "Comunicación clara en español e inglés",
+    "p4": "Arquitectura enfocada en seguridad y control de accesos",
+    "p5": "Entrega confiable con sprints, demos y reportes",
+    "p6": "Mentalidad de alianza a largo plazo"
+  },
+  "trustNote": "Seleccionamos tecnología según la necesidad del negocio, no por moda."
+}
+
+,
+"engagement": {
+  "kicker": "Modelos de trabajo",
+  "title": "Elegí el modelo que mejor se ajuste a tu proyecto",
+  "subtitle": "Desde alcance fijo hasta trabajo por horas y outsourcing para ejecución continua.",
+  "cta": "Hablemos",
+  "fixed": {
+    "title": "Precio fijo",
+    "subtitle": "Ideal cuando el alcance está claro y los entregables definidos.",
+    "p1": "Alcance, hitos y tiempos acordados desde el inicio",
+    "p2": "Presupuesto y resultado predecibles",
+    "p3": "Perfecto para MVPs y módulos definidos"
+  },
+  "hourly": {
+    "title": "Time & Materials (Por horas)",
+    "subtitle": "Ideal cuando los requerimientos evolucionan con el tiempo.",
+    "p1": "Alcance flexible con planificación por sprints",
+    "p2": "Updates semanales y demos",
+    "p3": "Excelente para modernización y roadmaps largos"
+  },
+  "outsourcing": {
+    "title": "Outsourcing / Staff Augmentation",
+    "subtitle": "Sumá ingenieros a tu equipo con ownership real.",
+    "p1": "Recursos dedicados full-time o part-time",
+    "p2": "Onboarding rápido y reportes claros",
+    "p3": "Ideal para escalar capacidad de entrega"
+  },
+  "bottom": {
+    "title": "¿No estás seguro cuál elegir?",
+    "desc": "Contanos tus objetivos y restricciones y te recomendamos el mejor modelo.",
+    "link": "Empezar aquí"
+  }
+},
+"process": {
+  "kicker": "Proceso",
+  "title": "Cómo entregamos",
+  "subtitle": "Pasos claros, entrega predecible y calidad enterprise.",
+  "s1": { "title": "Análisis & Definición", "desc": "Definimos objetivos y reducimos riesgo desde el inicio.", "p1": "Requerimientos y alcance", "p2": "Arquitectura y plan", "p3": "Riesgos y cronograma" },
+  "s2": { "title": "Desarrollo", "desc": "Ejecutamos por sprints con total transparencia.", "p1": "Sprints ágiles", "p2": "Code review y QA", "p3": "Demos y avances" },
+  "s3": { "title": "Despliegue y soporte", "desc": "Desplegamos, monitoreamos y damos soporte.", "p1": "Deploy y capacitación", "p2": "Monitoreo y correcciones", "p3": "Escalar y mejorar" }
+},
+"why": {
+  "title": "¿Por qué KavyFy?",
+  "p1": "Experiencia sólida en sistemas enterprise y legacy",
+  "p2": "ASP.NET MVC, Razor y modernización de Oracle Forms",
+  "p3": "Comunicación clara en español e inglés",
+  "p4": "Arquitectura enfocada en seguridad y control de accesos",
+  "p5": "Entrega confiable con sprints, demos y reportes",
+  "p6": "Mentalidad de alianza a largo plazo",
+  "note": "Seleccionamos tecnología según la necesidad del negocio, no por moda."
+},
+"systems": {
+  "kicker": "Sistemas",
+  "title": "Sistemas complejos e industrias que atendemos",
+  "subtitle": "Trabajamos donde la confiabilidad, seguridad y lo legacy importan.",
+  "c1": { "title": "Plataformas empresariales", "desc": "Sistemas internos, ERP, integraciones y procesos críticos." },
+  "c2": { "title": "Operación e industria", "desc": "Automatización, tableros y operaciones basadas en datos." },
+  "c3": { "title": "Finanzas y regulados", "desc": "Auditoría, permisos y entregas listas para compliance." },
+  "c4": { "title": "Web y apps modernas", "desc": "Frontends en React, APIs y arquitectura escalable." },
+  "c5": { "title": "Modernización legacy", "desc": "Oracle Forms / PL/SQL a web moderna, paso a paso." },
+  "c6": { "title": "Seguridad primero", "desc": "Auth, roles, permisos y despliegues seguros." }
+}
+
+
+
+}

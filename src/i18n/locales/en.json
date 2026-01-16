@@ -1,0 +1,220 @@
+{
+  "brand": "KavyFy Technologies",
+  "nav": {
+  "home": "Home",
+  "services": "Services",
+  "tech": "Tech",
+  "process": "Process",
+  "benefits": "Why KavyFy",
+  "systems": "Industries & Systems",
+  "engagement": "Engagement",
+  "contact": "Contact",
+  "cta": "Let's talk",
+  "top": "Back to top"
+  },
+  "hero": {
+    "pill": "Custom software + International outsourcing",
+    "titleA": "We build software products",
+    "titleB": "fast, secure",
+    "titleC": "and ready to scale.",
+    "desc": "Custom software and outsourcing delivered from Costa Rica — a stable, nearshore hub aligned with U.S. time zones and global standards.",
+    "primary": "Request a proposal",
+    "secondary": "View services",
+    "panel": {
+  "title": "Delivery & Governance",
+  "subtitle": "Transparent execution with quality gates and predictable cadence.",
+  "badge": "On track",
+  "steps": {
+    "discovery": "Discovery",
+    "discoveryNote": "Scope • Architecture • Risks",
+    "build": "Build",
+    "buildNote": "Sprints • Reviews • QA",
+    "launch": "Launch",
+    "launchNote": "Deploy • Monitoring • Support",
+    "onTrack": "On track"
+  },
+  "gatesTitle": "Quality gates",
+  "g1": "Code review",
+  "g2": "Automated tests",
+  "g3": "Security checks",
+  "g4": "CI/CD pipeline",
+  "pass": "Pass",
+  "kpi1": { "label": "Sprint cadence", "value": "1–2 w" },
+  "kpi2": { "label": "Response time", "value": "< 24h" },
+  "kpi3": { "label": "Release rhythm", "value": "Weekly" },
+  "note": "Example of how we structure delivery. Final metrics depend on project scope."
+}
+
+  },
+"services": {
+  "kicker": "Services",
+  "title": "Two business lines. One obsession: quality delivery.",
+  "subtitle": "Custom software for real products and staff augmentation to accelerate teams without compromising engineering standards.",
+  "cards": {
+    "custom": {
+      "title": "Custom Software Development",
+      "desc": "Web apps, APIs, integrations and internal systems built to scale.",
+      "b1": "Modern front-end + robust backend",
+      "b2": "Clean architecture & documentation",
+      "b3": "Performance and maintainability"
+    },
+    "outsourcing": {
+      "title": "Outsourcing / Staff Augmentation",
+      "desc": "Add senior talent to your team with ownership and strong communication.",
+      "b1": "Full-time or project-based",
+      "b2": "Fast onboarding, clear reporting",
+      "b3": "High code quality standards"
+    },
+    "security": {
+      "title": "Architecture & Security",
+      "desc": "Security-by-design and scalable architectures for critical systems.",
+      "b1": "Auth, roles, access control",
+      "b2": "Hardening & secure practices",
+      "b3": "Code review & risk reduction"
+    },
+    "modernization": {
+      "title": "Modernization",
+      "desc": "Upgrade legacy systems without breaking the business.",
+      "b1": "Refactor, migrate, optimize",
+      "b2": "Better UX + speed improvements",
+      "b3": "Observability and reliability"
+    },
+    "mvp": {
+      "title": "Startup MVP",
+      "desc": "Build a validated first version that’s ready for real users.",
+      "b1": "Roadmap and MVP scope",
+      "b2": "Agile delivery with demos",
+      "b3": "Iterate based on feedback"
+    },
+    "global": {
+      "title": "Global Delivery Ready",
+      "desc": "Processes designed for clients abroad (EN/ES) and remote teams.",
+      "b1": "Clear deliverables and timelines",
+      "b2": "Async updates + sprint demos",
+      "b3": "Long-term partnership mindset"
+    }
+  },
+  "bottom": {
+    "title": "Need a proposal?",
+    "desc": "Tell us what you need (custom software or staff augmentation). We’ll reply with next steps and a clear plan."
+  }
+},
+"contact": {
+  "badge": "Fast reply • Clear proposal",
+  "title": "Let’s talk about your project",
+  "subtitle": "Tell us what you need (custom software or outsourcing). We’ll reply with next steps and a clear plan.",
+  "points": {
+    "p1": "Discovery call + requirements in plain language",
+    "p2": "Estimate by phases/sprints and deliverables",
+    "p3": "English/Spanish communication (clients abroad)"
+  },
+  "note": "Tip: the more context you share (timeline, stack, scope), the faster we can send a precise proposal.",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "company": "Company (optional)",
+    "message": "Tell us what you need (scope, timeline, stack, etc.)",
+    "send": "Send",
+    "sending": "Sending...",
+    "services": {
+      "custom": "Custom software development",
+      "outsourcing": "Outsourcing / Staff augmentation",
+      "security": "Architecture & security",
+      "modernization": "Modernization / Legacy",
+      "mvp": "Startup MVP",
+      "other": "Other"
+    }
+  },
+  "success": "Thanks! We got your message and we’ll reply soon.",
+  "privacy": "We’ll only use this information to contact you about your request.",
+  "errors": {
+    "invalid": "Please complete the required fields (valid email and a detailed message).",
+    "failed": "Something went wrong sending your message. Please try again.",
+    "missingEndpoint": "Form is not connected yet. Replace the Formspree endpoint in Contact.tsx."
+  }
+}
+,"tech": {
+  "kicker": "Technology",
+  "title": "Enterprise-ready technology stack",
+  "subtitle": "Modern and legacy technologies combined to support real-world enterprise systems.",
+  "frontend": "Frontend & UI",
+  "backend": "Backend",
+  "database": "Databases",
+  "cloud": "Cloud & Infrastructure",
+  "devops": "DevOps & Delivery",
+  "trustTitle": "Why KavyFy?",
+  "trust": {
+    "p1": "Strong experience with enterprise and legacy systems",
+    "p2": "ASP.NET MVC, Razor and Oracle Forms modernization",
+    "p3": "Clear communication in English and Spanish",
+    "p4": "Security-focused architecture and access control",
+    "p5": "Reliable delivery with sprints, demos and reporting",
+    "p6": "Long-term partnership mindset"
+  },
+  "trustNote": "We select technologies based on business needs — not trends."
+}
+,
+"engagement": {
+  "kicker": "Engagement models",
+  "title": "Choose the engagement that fits your project",
+  "subtitle": "From fixed-scope delivery to flexible hourly work and staff augmentation for long-term execution.",
+  "cta": "Talk to us",
+  "fixed": {
+    "title": "Fixed Price",
+    "subtitle": "Best for well-defined scope and clear deliverables.",
+    "p1": "Scope, milestones and timeline agreed upfront",
+    "p2": "Predictable budget and outcomes",
+    "p3": "Ideal for MVPs and defined modules"
+  },
+  "hourly": {
+    "title": "Time & Materials (Hourly)",
+    "subtitle": "Best for evolving requirements and continuous improvement.",
+    "p1": "Flexible scope with sprint planning",
+    "p2": "Weekly progress updates and demos",
+    "p3": "Perfect for modernization and long-term roadmaps"
+  },
+  "outsourcing": {
+    "title": "Outsourcing / Staff Augmentation",
+    "subtitle": "Add engineers to your team with strong ownership.",
+    "p1": "Full-time or part-time dedicated resources",
+    "p2": "Fast onboarding and clear reporting",
+    "p3": "Works great for scaling delivery capacity"
+  },
+  "bottom": {
+    "title": "Not sure which one to choose?",
+    "desc": "Tell us your goals and constraints, and we’ll recommend the best model.",
+    "link": "Start here"
+  }
+}
+,
+"process": {
+  "kicker": "Process",
+  "title": "How we deliver",
+  "subtitle": "Clear steps, predictable delivery, and enterprise-quality execution.",
+  "s1": { "title": "Discovery", "desc": "We define goals and reduce risk early.", "p1": "Requirements & scope", "p2": "Architecture & plan", "p3": "Risks & timeline" },
+  "s2": { "title": "Build", "desc": "We execute in sprints with transparency.", "p1": "Agile sprints", "p2": "Code reviews & QA", "p3": "Demos & updates" },
+  "s3": { "title": "Launch", "desc": "We deploy, monitor and support.", "p1": "Deployment & training", "p2": "Monitoring & fixes", "p3": "Scale & improve" }
+},
+"why": {
+  "title": "Why KavyFy?",
+  "p1": "Strong experience with enterprise and legacy systems",
+  "p2": "ASP.NET MVC, Razor and Oracle Forms modernization",
+  "p3": "Clear communication in English and Spanish",
+  "p4": "Security-focused architecture and access control",
+  "p5": "Reliable delivery with sprints, demos and reporting",
+  "p6": "Long-term partnership mindset",
+  "note": "We select technologies based on business needs — not trends."
+},
+"systems": {
+  "kicker": "Systems",
+  "title": "Complex systems & industries we support",
+  "subtitle": "We work where reliability, security and legacy realities matter.",
+  "c1": { "title": "Enterprise platforms", "desc": "Internal systems, ERPs, integrations and critical workflows." },
+  "c2": { "title": "Operations & manufacturing", "desc": "Automations, dashboards and data-driven operations." },
+  "c3": { "title": "Finance & regulated", "desc": "Auditability, access control and compliance-ready delivery." },
+  "c4": { "title": "Web & modern apps", "desc": "React frontends, APIs and scalable architectures." },
+  "c5": { "title": "Legacy modernization", "desc": "Oracle Forms / PL/SQL to modern web, step-by-step." },
+  "c6": { "title": "Security-first", "desc": "Auth, roles, permissions and secure deployments." }
+}
+
+}
