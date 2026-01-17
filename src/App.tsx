@@ -86,12 +86,12 @@ function Nav() {
       <img
         src="/Logo-kv.png"
         alt="KavyFy Technologies"
-        className="h-15 w-auto object-contain md:h-45"
+        className="h-15 w-auto object-contain md:h-37"
       />
     </a>
 
     {/* MENÚ – centrado real */}
-    <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
+    <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 lg:flex">
       {sections.map((s) => (
         <a
           key={s.id}
@@ -115,7 +115,7 @@ function Nav() {
 
       {/* Mobile menu */}
       <button
-        className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-2 text-white/80 hover:bg-white/10 md:hidden"
+        className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-2 text-white/80 hover:bg-white/10 lg:hidden"
         onClick={() => setOpen((v) => !v)}
         aria-label="Open menu"
       >
