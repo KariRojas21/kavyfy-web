@@ -20,7 +20,7 @@ export default function BackToTop() {
     <button
       onClick={goTop}
       className={[
-          "fixed right-5 bottom-24 z-50 inline-flex items-center gap-2 rounded-2xl",
+          "fixed right-5 bottom-50 z-50 inline-flex items-center gap-2 rounded-2xl",
           "border border-white/10 bg-black/40 px-4 py-2 text-xs font-semibold text-white/90",
           "backdrop-blur transition-all duration-300",
           "shadow-lg shadow-black/40",

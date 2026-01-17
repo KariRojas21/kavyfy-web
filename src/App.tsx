@@ -86,7 +86,7 @@ function Nav() {
       <img
         src="/Logo-kv.png"
         alt="KavyFy Technologies"
-        className="h-15 w-auto object-contain md:h-40"
+        className="h-15 w-auto object-contain md:h-45"
       />
     </a>
 
