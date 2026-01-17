@@ -180,7 +180,7 @@ function Hero() {
   <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black to-transparent" />
   <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent" />
   </div> 
-      <div className="mx-auto max-w-6xl px-4 pb-16 pt-14 md:pb-24 md:pt-8">
+      <div className="relative z-10 mx-auto max-w-6xl px-4 pb-16 pt-14 md:pb-24 md:pt-8">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div> 
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/80 backdrop-blur">
