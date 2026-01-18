@@ -287,8 +287,13 @@
   "c4": { "title": "Web y apps modernas", "desc": "Frontends modernos de alto nivel, APIs y arquitectura escalable." },
   "c5": { "title": "Modernización legacy", "desc": "De sistemas antiguos a plataformas modernas, sin frenar la operación." },
   "c6": { "title": "Seguridad primero", "desc": "Auth, roles, permisos y despliegues seguros." }
-}
-,
+},
+"seo": {
+  "home": {
+    "title": "KavyFy Technologies | Software a la medida, SaaS y modernización de sistemas legacy",
+    "description": "KavyFy Technologies desarrolla software a la medida, plataformas SaaS y moderniza sistemas legacy y empresariales—con enfoque en seguridad, escalabilidad y comunicación bilingüe (ES/EN)."
+  }
+},
 "footer": {
     "company": "Empresa",
     "security": "Seguridad",

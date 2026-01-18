@@ -12,25 +12,17 @@ function upsertMeta(name: string, content: string) {
 }
 
 export default function Seo() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   useEffect(() => {
     const isES = (i18n.language || "en").startsWith("es");
 
-    const title = isES
-      ? "KavyFy Technologies | Software a la medida & Outsourcing"
-      : "KavyFy Technologies | Custom Software & Outsourcing";
-
-    const description = isES
-      ? "Desarrollo de software a la medida, modernización y outsourcing (staff augmentation). Costa Rica, clientes internacionales."
-      : "Custom software development, modernization and staff augmentation. Based in Costa Rica, serving global clients.";
-
     document.documentElement.lang = isES ? "es" : "en";
-    document.title = title;
+    document.title = t("seo.home.title");
 
-    upsertMeta("description", description);
+    upsertMeta("description", t("seo.home.description"));
     upsertMeta("robots", "index,follow");
-  }, [i18n.language]);
+  }, [i18n.language, t]);
 
   return null;
 }

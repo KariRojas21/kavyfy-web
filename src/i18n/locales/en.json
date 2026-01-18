@@ -286,6 +286,12 @@
   "c5": { "title": "Legacy modernization", "desc": "Modernize critical systems without disrupting day-to-day operations." },
   "c6": { "title": "Security-first", "desc": "Auth, roles, permissions and secure deployments." }
 },
+"seo": {
+  "home": {
+    "title": "KavyFy Technologies | Custom Software Development, SaaS & Legacy Modernization",
+    "description": "KavyFy Technologies delivers custom software development, SaaS platforms, and legacy modernization for enterprises and growing businesses—security-first, scalable, and bilingual (EN/ES)."
+  }
+},
 "footer": {
     "company": "Company",
     "security": "Security",
