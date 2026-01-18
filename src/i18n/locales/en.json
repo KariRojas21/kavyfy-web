@@ -15,7 +15,15 @@
    "home": {
     "logos": {
       "title": "Trusted by teams building mission-critical systems",
-      "subtitle": "Selected industries and delivery contexts"
+      "subtitle": "Selected industries and delivery contexts",
+      "items": {
+        "fintech": "Fintech",
+        "retail": "Retail",
+        "logistics": "Logistics",
+        "healthcare": "Healthcare",
+        "manufacturing": "Manufacturing",
+        "saas": "SaaS"
+      }
     },
     "security": {
       "title": "Security-first delivery",
@@ -55,6 +63,12 @@
     }
   },
   "hero": {
+   "chips": [
+      "🇨🇷 Nearshore Costa Rica",
+      "Bilingual (EN/ES)",
+      "Enterprise & legacy modernization",
+      "Security-first delivery"
+    ],
     "pill": "Custom software + International outsourcing",
     "titleA": "We build software products",
     "titleB": "fast, secure",
@@ -267,10 +281,27 @@
   "subtitle": "We work where reliability, security and legacy realities matter.",
   "c1": { "title": "Enterprise platforms", "desc": "Internal systems, ERPs, integrations and critical workflows." },
   "c2": { "title": "Operations & manufacturing", "desc": "Automations, dashboards and data-driven operations." },
-  "c3": { "title": "Finance & regulated", "desc": "Auditability, access control and compliance-ready delivery." },
-  "c4": { "title": "Web & modern apps", "desc": "React frontends, APIs and scalable architectures." },
-  "c5": { "title": "Legacy modernization", "desc": "Oracle Forms / PL/SQL to modern web, step-by-step." },
+  "c3": { "title": "Finance & regulated", "desc": "Auditability, traceability, and deliveries ready for regulatory compliance." },
+  "c4": { "title": "Web & modern apps", "desc": "Modern frontends, fast experiences, clean UI, built to scale." },
+  "c5": { "title": "Legacy modernization", "desc": "Modernize critical systems without disrupting day-to-day operations." },
   "c6": { "title": "Security-first", "desc": "Auth, roles, permissions and secure deployments." }
-}
-
+},
+"footer": {
+    "company": "Company",
+    "security": "Security",
+    "links": {
+      "services": "Services",
+      "tech": "Tech",
+      "engagement": "Engagement",
+      "contact": "Contact",
+      "secureDelivery": "Secure delivery",
+      "codeReviews": "Code reviews",
+      "cicd": "CI/CD",
+      "bestPractices": "Best practices",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "contactLabel": "Contact",
+    "rights": "© {{year}} {{brand}}. All rights reserved."
+  }
 }

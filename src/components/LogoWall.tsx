@@ -4,12 +4,12 @@ export default function LogoWall() {
   const { t } = useTranslation();
 
   const logos = [
-    { name: "Fintech" },
-    { name: "Retail" },
-    { name: "Logistics" },
-    { name: "Healthcare" },
-    { name: "Manufacturing" },
-    { name: "SaaS" },
+    { key: "fintech" },
+    { key: "retail" },
+    { key: "logistics" },
+    { key: "healthcare" },
+    { key: "manufacturing" },
+    { key: "saas" },
   ];
 
   return (
@@ -19,20 +19,26 @@ export default function LogoWall() {
           <h3 className="text-sm font-semibold text-white/80">
             {t("home.logos.title")}
           </h3>
-          <p className="text-xs text-white/50">{t("home.logos.subtitle")}</p>
+          <p className="text-xs text-white/50">
+            {t("home.logos.subtitle")}
+          </p>
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
-          {logos.map((l) => (
-            <div
-              key={l.name}
-              className="flex items-center justify-center rounded-2xl border border-white/10 bg-black/20 px-4 py-4 text-sm font-semibold text-white/70 transition hover:bg-black/30 hover:text-white"
-              aria-label={l.name}
-              title={l.name}
-            >
-              {l.name}
-            </div>
-          ))}
+          {logos.map((l) => {
+            const label = t(`home.logos.items.${l.key}`);
+
+            return (
+              <div
+                key={l.key}
+                className="flex items-center justify-center rounded-2xl border border-white/10 bg-black/20 px-4 py-4 text-sm font-semibold text-white/70 transition hover:bg-black/30 hover:text-white"
+                aria-label={label}
+                title={label}
+              >
+                {label}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

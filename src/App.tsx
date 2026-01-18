@@ -212,20 +212,17 @@ function Hero() {
                 {t("hero.secondary")}
               </a>
             </div>
-            <div className="mt-8 flex flex-wrap items-center gap-2">
-              {[
-                "🇨🇷 Nearshore Costa Rica",
-                "Bilingual (EN/ES)",
-                "Enterprise & legacy modernization",
-                "Security-first delivery",
-              ].map((x) => (
-                <span
-                  key={x}
-                  className="rounded-full border border-white/10 bg-black/30 px-3 py-1 text-xs text-white/75 backdrop-blur"
-                >{x}
-                </span>
-                ))}
-              </div>
+          <div className="mt-8 flex flex-wrap items-center gap-2">
+  {(t("hero.chips", { returnObjects: true }) as string[]).map((label) => (
+    <span
+      key={label}
+      className="rounded-full border border-white/10 bg-black/30 px-3 py-1 text-xs text-white/75 backdrop-blur"
+    >
+      {label}
+    </span>
+  ))}
+</div>
+
           </div>
 
       <div className="group relative rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:border-white/20 hover:bg-white/10">
@@ -438,7 +435,7 @@ return (
 </div>
 
       </main>
- <footer className="border-t border-white/10">
+<footer className="border-t border-white/10">
   <div className="mx-auto max-w-6xl px-4 pt-8 pb-12">
     <div className="grid gap-10 md:grid-cols-4">
       {/* Brand */}
@@ -447,10 +444,10 @@ return (
           src="/Logo-kv.png"
           alt="KavyFy Technologies"
           className="h-60 w-auto object-contain mb-2"
-        /> 
+        />
 
         <div className="mt-4 text-sm text-white/70">
-          <div className="text-white/50">Contact</div>
+          <div className="text-white/50">{t("footer.contactLabel")}</div>
           <a className="hover:text-white" href="mailto:info@kavyfytech.com">
             info@kavyfytech.com
           </a>
@@ -459,37 +456,60 @@ return (
 
       {/* Links */}
       <div>
-        <div className="text-sm font-semibold text-white/80">Company</div>
+        <div className="text-sm font-semibold text-white/80">
+          {t("footer.company")}
+        </div>
         <div className="mt-3 space-y-2 text-sm text-white/60">
-          <a href="#services" className="block hover:text-white">Services</a>
-          <a href="#tech" className="block hover:text-white">Tech</a>
-          <a href="#engagement" className="block hover:text-white">Engagement</a> 
-          <a href="#contact" className="block hover:text-white">Contact</a>
+          <a href="#services" className="block hover:text-white">
+            {t("footer.links.services")}
+          </a>
+          <a href="#tech" className="block hover:text-white">
+            {t("footer.links.tech")}
+          </a>
+          <a href="#engagement" className="block hover:text-white">
+            {t("footer.links.engagement")}
+          </a>
+          <a href="#contact" className="block hover:text-white">
+            {t("footer.links.contact")}
+          </a>
         </div>
       </div>
 
       {/* Security */}
       <div>
-        <div className="text-sm font-semibold text-white/80">Security</div>
+        <div className="text-sm font-semibold text-white/80">
+          {t("footer.security")}
+        </div>
         <div className="mt-3 space-y-2 text-sm text-white/60">
-          <span className="block">Secure delivery</span>
-          <span className="block">Code reviews</span>
-          <span className="block">CI/CD</span>
-          <span className="block">Best practices</span>
+          <span className="block">{t("footer.links.secureDelivery")}</span>
+          <span className="block">{t("footer.links.codeReviews")}</span>
+          <span className="block">{t("footer.links.cicd")}</span>
+          <span className="block">{t("footer.links.bestPractices")}</span>
         </div>
       </div>
     </div>
 
     {/* Bottom bar */}
     <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row">
-      <div>© {new Date().getFullYear()} KavyFy Technologies. All rights reserved.</div>
+      <div>
+        {t("footer.rights", {
+          year: new Date().getFullYear(),
+          brand: "KavyFy Technologies",
+        })}
+      </div>
+
       <div className="flex items-center gap-4">
-        <a href="#contact" className="hover:text-white">Privacy</a>
-        <a href="#contact" className="hover:text-white">Terms</a>
+        <a href="#contact" className="hover:text-white">
+          {t("footer.links.privacy")}
+        </a>
+        <a href="#contact" className="hover:text-white">
+          {t("footer.links.terms")}
+        </a>
       </div>
     </div>
   </div>
 </footer>
+
 
 
       <BackToTop />

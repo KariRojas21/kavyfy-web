@@ -15,7 +15,15 @@
   "home": {
     "logos": {
       "title": "Confiado por equipos que construyen sistemas críticos",
-      "subtitle": "Industrias y contextos de entrega seleccionados"
+      "subtitle": "Industrias y contextos de entrega seleccionados",
+      "items": {
+        "fintech": "Fintech",
+        "retail": "Retail",
+        "logistics": "Logística",
+        "healthcare": "Salud",
+        "manufacturing": "Manufactura",
+        "saas": "SaaS"
+      }
     },
     "security": {
       "title": "Entrega con enfoque en seguridad",
@@ -54,7 +62,13 @@
       }
     }
   },
-  "hero": {
+  "hero": { 
+    "chips": [
+      "🇨🇷 Nearshore Costa Rica",
+      "Bilingüe (EN/ES)",
+      "Enterprise y modernización de sistemas legacy",
+      "Entrega con seguridad primero"
+    ],
     "pill": "Software a la medida + Outsourcing internacional",
     "titleA": "Construimos productos de software",
     "titleB": "rápidos, seguros",
@@ -138,7 +152,7 @@
   },
   "bottom": {
     "title": "¿Necesitás una propuesta?",
-    "desc": "Contanos qué ocupás (software a la medida o outsourcing). Te respondemos con próximos pasos y un plan claro."
+    "desc": "Contanos qué ocupás (software a la medida o outsourcing). Te respondemos con los próximos pasos y un plan claro."
   }
 },
 "contact": {
@@ -146,7 +160,7 @@
   "title": "Hablemos de tu proyecto",
   "subtitle": "Contanos qué necesitás (software a la medida u outsourcing). Te respondemos con próximos pasos y un plan claro.",
   "points": {
-    "p1": "Llamada de discovery + requerimientos claros",
+    "p1": "Llamada inicial de descubrimiento + definición de requisitos en lenguaje sencillo",
     "p2": "Estimación por fases/sprints y entregables",
     "p3": "Comunicación en inglés/español (clientes abroad)"
   }
@@ -269,12 +283,29 @@
   "subtitle": "Trabajamos donde la confiabilidad, seguridad y lo legacy importan.",
   "c1": { "title": "Plataformas empresariales", "desc": "Sistemas internos, ERP, integraciones y procesos críticos." },
   "c2": { "title": "Operación e industria", "desc": "Automatización, tableros y operaciones basadas en datos." },
-  "c3": { "title": "Finanzas y regulados", "desc": "Auditoría, permisos y entregas listas para compliance." },
-  "c4": { "title": "Web y apps modernas", "desc": "Frontends en React, APIs y arquitectura escalable." },
-  "c5": { "title": "Modernización legacy", "desc": "Oracle Forms / PL/SQL a web moderna, paso a paso." },
+  "c3": { "title": "Finanzas y regulados", "desc": "Auditoría, trazabilidad y entregas listas para cumplimiento normativo." },
+  "c4": { "title": "Web y apps modernas", "desc": "Frontends modernos de alto nivel, APIs y arquitectura escalable." },
+  "c5": { "title": "Modernización legacy", "desc": "De sistemas antiguos a plataformas modernas, sin frenar la operación." },
   "c6": { "title": "Seguridad primero", "desc": "Auth, roles, permisos y despliegues seguros." }
 }
-
-
+,
+"footer": {
+    "company": "Empresa",
+    "security": "Seguridad",
+    "links": {
+      "services": "Servicios",
+      "tech": "Tecnologías",
+      "engagement": "Modalidad de trabajo",
+      "contact": "Contacto",
+      "secureDelivery": "Entrega segura",
+      "codeReviews": "Revisión de código",
+      "cicd": "CI/CD",
+      "bestPractices": "Mejores prácticas",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "contactLabel": "Contacto",
+    "rights": "© {{year}} {{brand}}. Todos los derechos reservados."
+  }
 
 }
