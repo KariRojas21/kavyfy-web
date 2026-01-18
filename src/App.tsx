@@ -448,8 +448,8 @@ return (
 
         <div className="mt-4 text-sm text-white/70">
           <div className="text-white/50">{t("footer.contactLabel")}</div>
-          <a className="hover:text-white" href="mailto:info@kavyfytech.com">
-            info@kavyfytech.com
+          <a className="hover:text-white" href="mailto:admin@kavyfy.com">
+            admin@kavyfy.com
           </a>
         </div>
       </div>

@@ -136,10 +136,10 @@ export default function Contact() {
   <span className="text-emerald-200">
     {t("contact.emailAlt")}{" "}
     <a
-      href="mailto:info@kavifytech.com"
+      href="mailto:admin@kavify.com"
       className="font-semibold underline underline-offset-4 hover:text-white"
     >
-      info@kavifytech.com
+      admin@kavify.com
     </a>{" "} 
   </span>
 </div>
